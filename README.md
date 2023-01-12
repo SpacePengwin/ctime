@@ -1,5 +1,5 @@
 # ctime
-`ctime` or Crab Time. for rustaceans is a command line utility to get run-time from a Windows, MacOS, or Linux system program. All of these different systems have a different default `time` utility. The goal of this was to use one program for all three when benchmarking a program's run-time.
+`ctime` or Crab Timer, for rustaceans, is a command line utility to get run-time from a Windows, MacOS, or Linux system program. All of these different systems have a different default `time` utility. The goal of this was to use one program for all three when benchmarking a program's run-time.
 
 # Installation
 The package is currently avaliable through `cargo` Rust's package manager.
