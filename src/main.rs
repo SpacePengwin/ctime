@@ -3,7 +3,7 @@ use std::process::{Command, exit};
 use std::env;
 
 fn main() {
-    let usage = String::from("Output the total run-time of a program. \nAppend --silence-output or -s to silence the output of the child program.\nExample: `rtime echo 'HELLO'");
+    let usage = String::from("Output the total run-time of a program. \nAppend --silence-output or -s to silence the output of the child program.\nExample: `ctime echo 'HELLO'");
     let mut silence_output = false;
     let starting_time = Instant::now();
     let mut args: Vec<String> = env::args().collect();
