@@ -1,6 +1,6 @@
 [package]
 name = "ctime"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 author = "SpacePengwin"
 description = "Command line utility to get run-time from a Windows, MacOS, or Unix system program."
